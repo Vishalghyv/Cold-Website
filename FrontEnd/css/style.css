@@ -375,7 +375,7 @@ section.dark.section-title::after {
   content: "";
   position: absolute;
   width: 1px;
-  height: 120%;
+  height: 100%;
   background-color: #ddd;
   left: -20px;
   top: 50%;
