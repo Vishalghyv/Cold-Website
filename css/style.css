@@ -47,9 +47,9 @@ html{
 }
 
 .logo {
-  width: 44px;
-  height: 32px;
-  background-image: url(../images/white-logo.png);
+  width: 40px;
+  height: 40px;
+  background-image: url(../images/coldlogo.png);
   background-size: contain;
 }
 
@@ -90,7 +90,7 @@ html{
   padding: 18px 0;
 }
 .sticky .logo {
-  background-image: url(../images/black-logo.png);
+  background-image: url(../images/coldlogo.png);
 }
 
 .sticky .navbar-menu a {
@@ -103,7 +103,7 @@ html{
 #home {
   height: 100vh;
   min-height: 500px;
-  background: url(../images/bg.jpg) no-repeat center;
+  background: url(../images/bg3.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -131,18 +131,18 @@ html{
 }
 
 #home .content h1::after {
-  content: "COLD";
+  content: "Code.Learn.Discuss";
   animation: textanim 10s linear infinite;
 }
 @keyframes textanim {
   25% {
-    content: "developers";
+    content: "Code";
   }
   50% {
-    content: "designers";
+    content: "Learn";
   }
   75% {
-    content: "Enthusiast";
+    content: "Discuss";
   }
 }
 
