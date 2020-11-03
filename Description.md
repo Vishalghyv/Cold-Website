@@ -1,5 +1,6 @@
 # **CoLD Website**
-The following document covers and describes the various functions and purposes of the **CoLD** website.<br>
+This document covers and describes the various functions and purposes of the **CoLD** website.<br>
+
 The website will work as a tracker of the club's activities and will constantly keep a tab on the works/projects that are presently being undertaken within the club. The following will be the main areas that the website will cover:
 
 * A medium for new members to join
@@ -37,7 +38,6 @@ The information about the core members is available on the website alongwith the
 * MongoDB
 * Express
 * NodeJS
-
 
 
 
