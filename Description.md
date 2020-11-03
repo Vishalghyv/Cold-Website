@@ -5,7 +5,8 @@ The website will work as a tracker of the club's activities and will constantly 
 
 * A medium for new members to join
 * To give an overall idea about the club
-* A tracker of the progress of projects being done by the club
+* A tracker of the progress of projects taken up by the club
+
 * Services being offered by the club in fields such as basic programming, web dev, app development etc
 * Brief info about the members of the club, i.e the core committee members
 * Basic contact information for anyone to get in touch
@@ -38,7 +39,6 @@ The information about the core members is available on the website alongwith the
 * MongoDB
 * Express
 * NodeJS
-
 
 
 
