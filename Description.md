@@ -30,7 +30,8 @@ The club plans to provide various services in the areas of web development, basi
 ---
 
 ## Contact and Core Members
-The information about the core members is available on the website alongwith their roles. At any given point of time the core members can be approached via the contact details given on the website or sometimes directly.
+The information about the core members is available on the website alongwith their roles. At any given point of time the core members can be approached via the contact details given on the website.
+
 
 ***
 
@@ -41,4 +42,3 @@ The information about the core members is available on the website alongwith the
 * MongoDB
 * Express
 * NodeJS
-
