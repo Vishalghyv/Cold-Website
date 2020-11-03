@@ -23,7 +23,7 @@ The [ Our Projects](https://github.com/CoLDorg) button is a link to the club's G
 
 ---
 ## Services
-The club plans to provide various services in the areas of web development, basic programming (Java, Python), competitive programming, app/software development, server management and tehcnical writing/documentation. The objective of this is to ensure that the required skills and technologies are available to the members while working on various projects which in turn will result in skill development and experience simultaneously.
+The club plans to provide various services in the areas of web development, basic programming (Java, Python), competitive programming, app/software development, server management and technical writing/documentation. The objective of this is to ensure that the required skills and technologies are available to the members while working on various projects which in turn will result in skill development and experience simultaneously.
 
 
 ---
