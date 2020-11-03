@@ -19,7 +19,8 @@ The [Join Us](https://docs.google.com/forms/d/e/1FAIpQLSe763-pHHXFPQyo7MzlrN63zf
 ---
 ## Projects and Progress
 
-The [ Our Projects](https://github.com/CoLDorg) button is a link to the club's github repository and will contain everything thats been done by the club thus far. It will contain information about events, current projects etc.
+The [ Our Projects](https://github.com/CoLDorg) button is a link to the club's GitHub repository and will contain everything thats been done by the club thus far. It will contain information about events, current projects etc.
+
 
 ---
 ## Services
@@ -39,6 +40,5 @@ The information about the core members is available on the website alongwith the
 * MongoDB
 * Express
 * NodeJS
-
 
 
