@@ -44,3 +44,5 @@ The information about the core members is available on the website alongwith the
 * MongoDB
 * Express
 * NodeJS
+<hr>
+<p align="center"> Created by Co.L.D. </p>
