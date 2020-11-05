@@ -10,12 +10,98 @@
 <!-- navbar -->
 
 <!-- page content here -->
-<section id="home"></section>
+
+<section id="home-events">
+    <div class="inner-width">
+        <div class="content">
+            <div class="sm">
+                <h1>Events </h1>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="mentors">
+  <div class="inner-width">
+      <h1 align="center">Events Organised by Cold</h1>
+      <h4 align="center">Check out all upcoming and completed events below<h4>
+  </div>
+</section>
+
+<section id="mentors" class="grey">
+  <div class="inner-width">
+      <div class="time-line">
+          <div class="block-event">
+          <!--Event Block begin -->
+              <!-- Image division -->
+              <div class="block-event-image-container">
+                  <img src="images/laptop.jpg" />
+              </div>
+              <!-- Name, post and info division -->
+              <div class="block-event-title">
+                  <h4>Event Title</h4>
+                  <h3>Event Date (Month DD, YYYY [DD.MM.YY])</h3>
+                  <h3>Event Venue </h3>
+              </div>
+              <p align="center">Event description here</p>
+              <!-- Learn More button -->
+              <div style="text-align: center;">
+                  <button id="modalBtn" type="button" class="btn btn-outline-primary btn-lg">Learn More</button>
+              </div>
+              <!-- The Modal -->
+              <div id="tModal" class="modal">
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                      <span align="right" class="close">&times;</span>
+                      <img src="images/laptop.jpg" class="modal-img"/>
+                      <h4>Event Title</h4>
+                      <h3>Event Date (Month DD, YYYY [DD.MM.YY])</h3>
+                      <h3>Event Venue </h3>
+                      <p>Event description here.Event description here.Event description here.
+                        Event description here.Event description here.Event description here.</p>
+                  </div>
+              </div>
+          <!-- Event Block end -->
+          </div>
+      </div>
+  </div>
+</section>
+
+
 <!-- page content end -->
 
 <!-- Footer -->
 <%- include('partials/footer') -%>
 
 <button class="goTop fa fa-arrow-up"></button>
+
+<script>
+// Get the modal
+var modal = document.getElementById("tModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("modalBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
 </body>
 </html>

@@ -125,11 +125,6 @@ html{
   margin-bottom: 60px;
 }
 
-#home .content h1 {
-  font-size: 60px;
-  margin-bottom: 60px;
-}
-
 #home .content h1::after {
   content: "Code.Learn.Discuss";
   animation: textanim 10s linear infinite;
@@ -178,6 +173,31 @@ html{
 #home .buttons a:nth-child(n) {
   background-color: #48dbfb;
   color: #fff;
+}
+
+#home-events{
+  height: 100vh;
+  min-height: 500px;
+  background: url(../images/bg3.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#home-events .inner-width {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+#home-events .content {
+  width: 100%;
+  color: #fff;
+}
+
+#home-events .content h1 {
+  font-size: 90px;
+  margin-bottom: 30px;
 }
 
 section {
@@ -304,7 +324,7 @@ section {
 }
 
 section.grey {
-  background-color: #d0d0d0;
+  background-color: #e0e0e0;
 }
 section.dark {
   background-color: #353b48;
@@ -445,6 +465,37 @@ transform: scale(0);
 {
   opacity: 1;
   transform: scale(1);
+}
+
+.block-event{
+  width: 400px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin: 10px 0;
+  padding: 30px;
+  position: relative;
+}
+.block-event h3{
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.block-event p{
+  font-size: 16px;
+  color: #444;
+}
+.block-event-image-container {
+  align-self: center;
+  height: 200px;
+  width: 300px;
+  overflow: hidden;
+  border-radius: 0px;
+  background: rgba(0, 0, 0, .1);
+  margin: 0 auto;
+}
+.block-event-title{
+  text-align: center;
+  padding-top: 7px;
 }
 
 .contact-info{
@@ -642,4 +693,48 @@ footer{
   .nameZone .emailZone{
     width: 100%;
   }
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+}
+.modal-content h4{
+  margin-top: 20px;
+}
+.modal-img {
+  height: 400px;
+  width: 100%;
+}
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
