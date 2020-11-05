@@ -11,6 +11,9 @@ router.get('/projects', (req,res) => {
 router.get('/events', (req,res) => {
     res.render('events')
 })
+router.get('/constitution', (req,res) => {
+    res.download('public/pdfs/constitution.pdf')
+})
 
 
 module.exports = router
