@@ -1,85 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DEMO</title>
-  <link rel="stylesheet"  href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
-<link rel="stylesheet" href="css/style.css">
-<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-    crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-<script src="js/script.js"></script>
-
-</head>
+<!-- head -->
+    <%- include('partials/head') -%>
+<!-- head -->
 <body>
 
-    <!-- navbar -->
-    <nav class="navbar">
-        <div class="inner-width">
-            <a href="/" class="logo"></a>
-            <button class="menu-toggler">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <div class="navbar-menu">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#services">Services</a>
-                <a href="#mentors">Mentors</a>
-                <a href="#works">Work</a>
-                <a href="#contact">Contact</a>
-            </div>
-        </div>
-    </nav>
+<!-- navbar -->
+    <%- include('partials/navbar'); -%>
+<!-- navbar -->
 
-    <!-- home -->
+<!-- home -->
     <section id="home">
         <div class="inner-width">
             <div class="content">
                 <div class="sm">
-                <h1>Co.L.D.-> </h1>
-                <a href="#" class="fa fa-facebook-f" style="font-size:30px"></a>
-                <a href="#" class="fa fa-twitter" style="font-size:30px"></a>
-                <a href="#" class="fa fa-instagram" style="font-size:30px"></a>
-                <a href="#" class="fa fa-youtube" style="font-size:30px"></a>
-                <a href="#" class="fa fa-linkedin" style="font-size:30px"></a>
+                    <h1>Co.L.D.-> </h1>
+                    <a href="#" class="fa fa-facebook-f" style="font-size:30px"></a>
+                    <a href="#" class="fa fa-twitter" style="font-size:30px"></a>
+                    <a href="#" class="fa fa-instagram" style="font-size:30px"></a>
+                    <a href="#" class="fa fa-youtube" style="font-size:30px"></a>
+                    <a href="#" class="fa fa-linkedin" style="font-size:30px"></a>
                 </div>
                 <div class="buttons">
-                    <a href="https://forms.gle/pCv9DEW4wE32NYzn7">Join us</a>
-                    <a href="https://github.com/CoLDorg">Our Projects</a>
-                 </div>
+                    <a href="https://github.com/CoLDorg/Cold-Wiki">Learning</a>
+                    <a href="projects">Our Projects</a>
+                </div>
             </div>
         </div>
     </section>
 <!-- home -->
+
 <section id="about">
     <div class="inner-width">
         <h1 class="section-title">About</h1>
         <div class="about-content">
-        <img src="images/coldlogo.png" alt="" class="about-pic">
-        <div class="about-text">
-            <h1>Co.L.D. - The Computer Science Club of SE, JNU</h1>
-            <h3>
-                <span>Develop</span>
-                <span>Design</span>
-                <span>Deliver</span>
-            </h3>
-            <p>Cold was established to help students come together form
-            a community of computer enthusiasts in School of Engineering, JNU.
-            The Core Committee which founded Cold observed the little to no
-            presence of open source environment and lack of technical activities
-            in the college. Hence the Core took the initiative of forming a
-            platform to provide a common ground for like-minded students, so
-            as to educate interested colleagues and conduct relevant activities
-            where their skills could be honed and tested, giving them a
-            competitive edge with regards to the relevant industry.</p>
+            <img src="images/coldlogo.png" alt="" class="about-pic">
+            <div class="about-text">
+                <h1>Co.L.D. - The Computer Science Club of SE, JNU</h1>
+                <h3>
+                    <span>Develop</span>
+                    <span>Design</span>
+                    <span>Deliver</span>
+                </h3>
+                <p>Cold is the Computer Science Club of SE, JNU. We provide a platform
+                for the students of our institute to come together and become a part of
+                the coding community. We aim to provide them guidance and assitance to
+                grow their skills. Cold provides a common ground for like-minded students,
+                so as to educate them and conduct relevant activities by which their
+                skills can be honed and tested, giving them a competitive edge and hands-on
+                experience with regards to the relevant industry.</p>
+            </div>
         </div>
-        </div>
+
         <h1 class="activity">Activity</h1>
         <div class="skills">
             <div class="skill">
@@ -182,11 +154,10 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
         </div>
-</div>
+    </div>
 </section>
 
 <!-- core -->
-
 <section id="mentors">
 <div class="inner-width">
     <h1 class="section-title">Core Committee</h1>
@@ -406,7 +377,6 @@
 </section>
 
 <!-- Join Us -->
-
 <section id="Join Us" class="grey">
     <div class="container">
         <div class="row">
@@ -454,19 +424,7 @@
 </section>
 
 <!-- Footer -->
-<footer>
-    <div class="innerwidth">
-        <div class="copyright">
-            &copy; 2020 | Created and Designed by <a href="#">COLD_Team</a>
-        </div>
-        <div class="sm">
-            <a href="#" class="fa fa-facebook-f"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" class="fa fa-linkedin"></a>
-            <a href="#" class="fa fa-youtube"></a>
-        </div>
-    </div>
-</footer>
+<%- include('partials/footer') -%>
 
 <button class="goTop fa fa-arrow-up"></button>
 </body>
