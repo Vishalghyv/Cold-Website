@@ -1,8 +1,9 @@
 ---
 name: Modify Page
 about: Add/modify/edit contents on a particular page on the website
-title: "[Modification] Modify [page_name_here] on the site"
-labels: ''
+title: "[Modification] Modify Page: [page_name_here] on the site"
+labels: "\U0001F512 staff only, \U0001F579 aspect: interface, \U0001F4BB aspect: code,
+  ✨ goal: improvement"
 assignees: ''
 
 ---

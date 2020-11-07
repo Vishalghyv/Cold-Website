@@ -2,7 +2,7 @@
 name: Bug report
 about: Create a report to help us improve
 title: "[Bug] [Add a descriptive title here]"
-labels: help wanted
+labels: "\U0001F6A6 status: awaiting triage, \U0001F6E0 goal: fix, help wanted"
 assignees: ''
 
 ---

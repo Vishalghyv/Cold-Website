@@ -2,7 +2,8 @@
 name: Add page
 about: Add a new page on the website
 title: "[Addition] Add new page [page_name_here] to the site"
-labels: ''
+labels: "\U0001F31F goal: addition, \U0001F4BB aspect: code, \U0001F512 staff only,
+  \U0001F579 aspect: interface"
 assignees: ''
 
 ---
