@@ -2,7 +2,7 @@
 name: Add page
 about: Add a new page on the website
 title: "[Addition] Add new page [page_name_here] to the site"
-labels: ":lock: core only, :star2: goal: addition"
+labels: ''
 assignees: ''
 
 ---

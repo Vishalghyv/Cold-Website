@@ -2,8 +2,7 @@
 name: Bug report
 about: Create a report to help us improve
 title: "[Bug] [Add a descriptive title here]"
-labels: ":beetle: Bug, :broom: status: ticket work required, :no_entry_sign: status:
-  blocked, help wanted"
+labels: help wanted
 assignees: ''
 
 ---

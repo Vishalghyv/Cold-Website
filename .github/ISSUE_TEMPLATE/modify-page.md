@@ -2,8 +2,7 @@
 name: Modify Page
 about: Add/modify/edit contents on a particular page on the website
 title: "[Modification] Modify [page_name_here] on the site"
-labels: ":broom: status: ticket work required, :lock: core only, :star2: goal: addition,
-  :star2: goal: improvement, :star2: goal: modification"
+labels: ''
 assignees: ''
 
 ---
