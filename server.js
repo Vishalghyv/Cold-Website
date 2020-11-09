@@ -11,10 +11,13 @@ const indexRouter = require('./routes/index')
 const userRouter = require('./routes/api/Users')
 
 const bodyParser = require('body-parser')
+var cookieParser = require('cookie-parser')
+app.use(cookieParser())
 
 const mongoose = require("mongoose")
 const connectDB = require('./DB/connect')
 connectDB()
+
 
 
 //Passport middleware
