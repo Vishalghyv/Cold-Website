@@ -22,7 +22,7 @@ After ensuring that you have nodejs installed, follow the below steps:
 2. Now on your machine make a new folder where you want your files to be stored. Open terminal and run `git clone https://github.com/{user_name}/COLD`.
 3. Run `git branch -a` to see a list of all branches. Configure upstream branch to orginal repo if you wish.
 4. Run `git checkout -b {branch_name}` where {branch_name} is the branch made by you.
-5. Open the terminal and navigate to the folder containing the repo files. Run `npm start`. If you get error, make sure to install all the dependencies listed in package.json file with their versions. Now again run `npm start`.
+5. Open the terminal and navigate to the folder containing the repo files. Run `npm start`. If you get error, make sure to install all the dependencies listed in package.json file with their versions using `npm install`. Now again run `npm start`.
 6. Open your browser and visit `localhost::3000` to see the website. 
 
 Now you can make the changes you want. Note that for automatic save and render use `npm devStart` 
