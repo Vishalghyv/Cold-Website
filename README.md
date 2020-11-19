@@ -20,7 +20,7 @@ After ensuring that you have `nodejs` installed, follow the below steps:
 1. Find an issue you would like to work on. Once you've found an issue you'd like to work on, comment on it and say you're working on that issue. This is to avoid conflicts with others also working on the issue. If you want to work on something that there is no GitHub issue for, create a a new issue and propose your change there.
 2. Fork this repository. Please create a separate branch for the issue that you're working on. Do not make changes to the default branch (e.g. `master`, `develop`) of your fork.
 3. Now to clone your fork on your machine, make a new folder where you want to clone the fork. Navigate to this folder from terminal and run `git clone https://github.com/{user_name}/Cold-Website`.
-4. Run `git branch -a` to see a list of all branches. Configure upstream branch to orginal repo if you wish (See below how to do this).
+4. Run `git branch -a` to see a list of all branches. Configure upstream branch to orginal repo if you wish.
 5. Run `git checkout -b {branch_name}` where {branch_name} is the branch made by you. Now you can close the terminal if you want.
 6. Open the terminal and navigate to the folder containing the repo files. Run `npm start`. If you get error, make sure to install all the dependencies listed in package.json file with their versions using `npm install package.json`. Now again run `npm start`.
 7. Open your browser and visit `localhost::3000` to see the website. Now you can make the changes you want. Note that for automatic save and render use `npm devStart`
@@ -37,7 +37,7 @@ After ensuring that you have `nodejs` installed, follow the below steps:
 5. Make sure all the existing tests pass.
  
 ***
-#### Technologies used to build the **CoLD** Website
+#### Technologies used to build the Website
 <p>
 <img src="https://devicon.dev/devicon.git/icons/html5/html5-original.svg" alt="HTML5" width="60" height="60"/>
 <img src="https://devicon.dev/devicon.git/icons/css3/css3-original.svg" alt="CSS3" width="60" height="60"/>
