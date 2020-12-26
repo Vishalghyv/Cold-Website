@@ -45,7 +45,7 @@ router.post('/login',async (req,res) => {
     }
 
     const {userName, password} = req.body
-    
+
 
     User.findOne({userName:userName})
     .then(user => {
@@ -58,7 +58,7 @@ router.post('/login',async (req,res) => {
             if (isMatch) {
                 //User Matched
                 const payload = {id: user.id, userName: user.userName}
-                jwt.sign(payload, secretKey, {expiresIn: 7200}, 
+                jwt.sign(payload, secretKey, {expiresIn: 7200},
                 (err, token) => {
                     // res.json({
                     //     success:true,
@@ -66,7 +66,7 @@ router.post('/login',async (req,res) => {
                     // })
                     var auth = 'Bearer '+token
                     // console.log(auth)
-                    
+
                     res.cookie('jwtToken', auth, { maxAge: 900000, httpOnly: true });
                     // req.session.access_token =token;
                     res.redirect("/current")
