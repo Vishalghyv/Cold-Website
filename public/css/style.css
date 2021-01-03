@@ -49,7 +49,7 @@ html{
 .logo {
   width: 70px;
   height: 70px;
-  background-image: url(../images/coldlogo.png);
+  background-image: url(../images/logo_sq_tp.png);
   background-size: contain;
 }
 
@@ -90,7 +90,7 @@ html{
   padding: 18px 0;
 }
 .sticky .logo {
-  background-image: url(../images/coldlogo.png);
+  background-image: url(../images/logo_sq_tp.png);
 }
 
 .sticky .navbar-menu a {
@@ -103,7 +103,7 @@ html{
 #home {
   height: 100vh;
   min-height: 500px;
-  background: url(../images/bg6.png) no-repeat center;
+  background: url(../images/home_bg.png) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -137,7 +137,7 @@ html{
     content: "Learn";
   }
   75% {
-    content: "Discuss";
+    content: "Develop";
   }
 }
 
@@ -178,7 +178,7 @@ html{
 #home-events{
   height: 100vh;
   min-height: 500px;
-  background: url(../images/bg3.jpg) no-repeat center;
+  background: url(../images/events_bg.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -199,7 +199,55 @@ html{
   font-size: 90px;
   margin-bottom: 30px;
 }
+#home-community{
+  height: 100vh;
+  min-height: 500px;
+  background: url(../images/bg_com_coc.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
 
+#home-community .inner-width {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+#home-community .content {
+  width: 100%;
+  color: #fff;
+}
+
+#home-community .content h1 {
+  font-size: 90px;
+  margin-bottom: 30px;
+}
+
+#home-coc{
+  height: 100vh;
+  min-height: 500px;
+  background: url(../images/bg_com_coc.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#home-coc .inner-width {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+#home-coc .content {
+  width: 100%;
+  color: #fff;
+}
+
+#home-coc .content h1 {
+  font-size: 90px;
+  margin-bottom: 30px;
+}
 section {
   padding: 100px 0;
   background-color: #f1f1f1;
@@ -221,7 +269,7 @@ section {
   height: 3px;
   background-color: #111;
   bottom: 0;
-  left: calc(50% - 40px);
+  left: calc(50% - 43px);
 }
 
 .section-title::after {
@@ -325,6 +373,9 @@ section {
 
 section.grey {
   background-color: #e0e0e0;
+}
+section.white {
+  background-color: #ffffff;
 }
 section.dark {
   background-color: #353b48;
@@ -572,7 +623,7 @@ transition: .3s linear;
 }
 
 footer{
-  background: url(../images/bg6.png) no-repeat center;
+  background: url(../images/home_bg.png) no-repeat center;
   color: #fff;
   padding: 80px 0;
   text-align: center;
