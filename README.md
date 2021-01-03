@@ -27,7 +27,7 @@ After ensuring that you have `nodejs` installed, follow the below steps:
 8. Make the changes you want to. Once you are done with the changes stage your changes using `git add/remove/modify`.
 9. Commit your changes using `git commit`. This opens your text editor. Enter a relevant commit meesage for your commit. The commit message should follow the best commit guidelines from GitHub. Close the editor now.
 10. Push your commit using `git push`.
-11. Submit your Pull Request for the pushed changes. Use the format specified in pull request template for the repository. Populate the stencil completely for maximum verbosity. 
+11. Submit your Pull Request for the pushed changes. Use the format specified in pull request template for the repository. Populate the stencil completely for maximum verbosity.
 
 ## Code Guidelines
 1. Write comprehensive and robust tests that cover the changes you've made in your work.
@@ -35,16 +35,16 @@ After ensuring that you have `nodejs` installed, follow the below steps:
 3. Write readable code – keep functions small and modular and name variables descriptively.
 4. Document your code thoroughly.
 5. Make sure all the existing tests pass.
- 
+
 ***
 #### Technologies used to build the Website
 <p>
-<img src="https://devicon.dev/devicon.git/icons/html5/html5-original.svg" alt="HTML5" width="60" height="60"/>
-<img src="https://devicon.dev/devicon.git/icons/css3/css3-original.svg" alt="CSS3" width="60" height="60"/>
-<img src="https://devicon.dev/devicon.git/icons/javascript/javascript-original.svg" alt="JavaScript" width="60" height="60"/>
-<img src="https://devicon.dev/devicon.git/icons/jquery/jquery-original.svg" alt="jQuery" width="60" height="60"/>
-<img src="https://devicon.dev/devicon.git/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="60" height="60"/>
-<img src="https://devicon.dev/devicon.git/icons/nodejs/nodejs-original.svg" alt="NodeJs" width="60" height="60"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" width="60" height="60"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS3" width="60" height="60"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="60" height="60"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jquery/jquery-original.svg" alt="jQuery" width="60" height="60"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="60" height="60"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="NodeJs" width="60" height="60"/>
 </p>
 <hr>
 <p align="center"> Created with :heart: by <b>Co.L.D.</b> </p>

@@ -90,7 +90,7 @@ html{
   padding: 18px 0;
 }
 .sticky .logo {
-  background-image: url(../images/coldlogo.png);
+  background-image: url(../images/logo_sq_tp.png);
 }
 
 .sticky .navbar-menu a {
@@ -199,7 +199,55 @@ html{
   font-size: 90px;
   margin-bottom: 30px;
 }
+#home-community{
+  height: 100vh;
+  min-height: 500px;
+  background: url(../images/bg_com_coc.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
 
+#home-community .inner-width {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+#home-community .content {
+  width: 100%;
+  color: #fff;
+}
+
+#home-community .content h1 {
+  font-size: 90px;
+  margin-bottom: 30px;
+}
+
+#home-coc{
+  height: 100vh;
+  min-height: 500px;
+  background: url(../images/bg_com_coc.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#home-coc .inner-width {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+#home-coc .content {
+  width: 100%;
+  color: #fff;
+}
+
+#home-coc .content h1 {
+  font-size: 90px;
+  margin-bottom: 30px;
+}
 section {
   padding: 100px 0;
   background-color: #f1f1f1;
@@ -325,6 +373,9 @@ section {
 
 section.grey {
   background-color: #e0e0e0;
+}
+section.white {
+  background-color: #ffffff;
 }
 section.dark {
   background-color: #353b48;

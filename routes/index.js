@@ -13,8 +13,14 @@ router.get('/projects', (req,res) => {
 router.get('/events', (req,res) => {
     res.render('events')
 })
+router.get('/community', (req,res) => {
+    res.render('community')
+})
 router.get('/constitution', (req,res) => {
     res.download('public/pdfs/constitution.pdf')
+})
+router.get('/codeofconduct', (req,res) => {
+    res.render('codeofconduct')
 })
 
 router.get('/current',authorization,(req,res) => {
